@@ -275,7 +275,7 @@ footer {
     justify-content: center;
     align-items: center ;
     height: 60px;
-    font-size: 20px
+    
 } 
 footer p{
     margin-top: 10px;
@@ -303,16 +303,23 @@ ul{
         display: flex;
         background-color: white;
         flex-wrap: wrap;} 
-    .conhecimento {
+    
+        .conhecimento {
         padding: 5%;
         text-align: justify;}
-    .socialimg {
-        display: none;}
-    .projeto {
-    flex-direction: column;
-    align-items: center;
     
+        .socialimg {
+        display: none;}
+    
+        .projeto {
+    flex-direction: column;
+    align-items: center;}
+
+
+    .subFooter {
+        width: 100%;
     }
-
-
+    .social {
+        margin-top: 15px;
+    }
 }
